@@ -1,0 +1,26 @@
+{
+  "name": "solid-start",
+  "scripts": {
+    "dev": "solid-start dev",
+    "build": "solid-start build",
+    "start": "solid-start start"
+  },
+  "type": "module",
+  "devDependencies": {
+    "babel-plugin-solid-styled": "^0.6.1",
+    "solid-start-node": "next",
+    "typescript": "^4.8.3",
+    "vite": "^3.1.0"
+  },
+  "dependencies": {
+    "@solidjs/meta": "^0.28.0",
+    "@solidjs/router": "^0.4.3",
+    "solid-js": "^1.5.4",
+    "solid-start": "next",
+    "solid-styled": "^0.6.1",
+    "undici": "^5.10.0"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
