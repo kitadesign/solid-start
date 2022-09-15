@@ -1,8 +1,7 @@
 // @refresh reload
-import { Suspense } from "solid-js";
-import { Assets } from "solid-js/web";
-import {
-  Body,
+import { Suspense } from 'solid-js'
+import { Assets } from 'solid-js/web'
+import { Body,
   ErrorBoundary,
   FileRoutes,
   Head,
@@ -10,9 +9,8 @@ import {
   Meta,
   Routes,
   Scripts,
-  Title,
-} from "solid-start";
-import { css, renderSheets, StyleRegistry } from "solid-styled";
+  Title, } from 'solid-start'
+import { css, renderSheets, StyleRegistry } from 'solid-styled'
 
 function GlobalStyles() {
   css`
@@ -58,12 +56,12 @@ function GlobalStyles() {
         }
       }
     }
-  `;
-  return null;
+  `
+  return null
 }
 
 export default function Root() {
-  const sheets = [];
+  const sheets = []
 
   return (
     <StyleRegistry styles={sheets}>
@@ -89,5 +87,5 @@ export default function Root() {
         </Body>
       </Html>
     </StyleRegistry>
-  );
+  )
 }
